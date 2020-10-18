@@ -27,7 +27,7 @@ do
 
 	elif [ "$answer" = "delete" ]
 	then
-		./delete.sh
+		./del.sh
 
 	elif [ "$answer" = "exit" ]
 	then

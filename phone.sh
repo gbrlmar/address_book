@@ -10,7 +10,7 @@ exit=0
 while [ $exit -ne 1 ]
 do
 	echo "What operation do you want?"
-	echo -e "add, list, find, delete, exit: "
+	echo "add, list, find, delete, exit: "
 	read answer
 
 	if [ "$answer" = "add" ]
